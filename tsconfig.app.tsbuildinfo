@@ -1,0 +1,1 @@
+{"root":["./src/index.ts","./src/main.tsx","./src/vite-env.d.ts","./src/components/example/app.tsx","./src/components/ui/accordion.tsx","./src/components/ui/button.tsx","./src/components/ui/checkbox.tsx","./src/components/ui/label.tsx","./src/components/ui/select.tsx","./src/utils/commonutils.ts"],"version":"5.9.2"}

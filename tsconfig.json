@@ -1,13 +1,33 @@
+// {
+//     "files": [],
+//     "composite": true,
+//     "references": [{ "path": "./tsconfig.app.json" }, { "path": "./tsconfig.node.json" }],
+//     "compilerOptions": {
+//         "declaration": true, // Generate .d.ts files
+//         "declarationDir": "dist/types", // Output folder for type definitions
+//         "emitDeclarationOnly": true, // Only generate types, no JS
+//         "outDir": "dist", // JS output (used by tsc in case you use it)
+//         "baseUrl": ".",
+//         "paths": {
+//             "@/*": ["./src/*"]
+//         }
+//     }
+// }
 {
-	"files": [],
-	"references": [
-		{ "path": "./tsconfig.app.json" },
-		{ "path": "./tsconfig.node.json" }
-	],
-	"compilerOptions": {
-		"baseUrl": ".",
-		"paths": {
-			"@/*": ["./src/*"]
-		}
-	}
+    "compilerOptions": {
+        "target": "ESNext",
+        "module": "ESNext",
+        "declaration": true,
+        "declarationDir": "dist",
+        "emitDeclarationOnly": true,
+        "strict": true,
+        "moduleResolution": "node",
+        "jsx": "react-jsx",
+        "skipLibCheck": true,
+        "baseUrl": ".",
+        "paths": {
+            "@/*": ["./src/*"]
+        }
+    },
+    "include": ["src"]
 }

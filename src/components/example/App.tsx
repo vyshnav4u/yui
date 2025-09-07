@@ -1,20 +1,9 @@
 import { useState } from 'react';
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '../ui/accordion';
+import { Button } from '../ui/button';
+import { Checkbox } from '../ui/checkbox';
+import { Select } from '../ui/select';
 import './App.css';
-import {
-    Accordion,
-    AccordionContent,
-    AccordionItem,
-    AccordionTrigger,
-} from './components/ui/accordion';
-import { Button } from './components/ui/button';
-import { Checkbox } from './components/ui/checkbox';
-import {
-    Select,
-    SelectContent,
-    SelectItem,
-    SelectTrigger,
-    SelectValue,
-} from './components/ui/select';
 
 const option = [
     { label: 'One', value: 'one' },

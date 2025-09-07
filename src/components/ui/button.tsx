@@ -11,7 +11,7 @@ const SIZE_CLASSES = {
     large: 'h-12 px-6 text-lg',
 } as const;
 
-type TButton = React.ComponentProps<'button'> & {
+export type TButton = React.ComponentProps<'button'> & {
     text: string;
     variant: keyof typeof VARIANT_CLASSES;
     size: keyof typeof SIZE_CLASSES;

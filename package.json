@@ -1,11 +1,11 @@
 {
     "name": "@ysh/yui",
-    "private": true,
-    "version": "0.0.0",
+    "version": "0.0.1",
     "type": "module",
+    "module": "dist/yui.es.js",
     "scripts": {
         "dev": "vite",
-        "build": "tsc -b && vite build",
+        "build": "tsc && vite build",
         "format": "prettier --write \"src/**/*.{js,jsx,ts,tsx,json,css,md}\"",
         "lint": "eslint .",
         "preview": "vite preview"
@@ -44,8 +44,9 @@
         "globals": "^15.9.0",
         "prettier": "^3.6.2",
         "tw-animate-css": "^1.3.8",
-        "typescript": "^5.5.3",
+        "typescript": "^5.9.2",
         "typescript-eslint": "^8.0.1",
-        "vite": "^5.4.1"
+        "vite": "^5.4.1",
+        "vite-plugin-dts": "^4.5.4"
     }
 }
